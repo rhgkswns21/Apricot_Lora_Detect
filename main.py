@@ -8,8 +8,15 @@ send_param = {'index':0, 'length':0, 'retry':0, 'sum':0, 'data':bytes}
 recv_param = {}
 
 LoRa_PanID = 0x0110
-LoRa_OwnID = 0x000001
+LoRa_OwnID = 0x000000
 LoRa_DestID = 0x000000
+
+## BW 
+## 6 = 500khz
+## 5 = 250khz
+## 4 = 125khz
+## 3 = 62.5khz
+
 LoRa_BW = 6
 LoRa_SF = 7
 LoRa_CH = 1
@@ -52,7 +59,7 @@ sample_count = 0
 ########## Main Loop ##########
 try:
     while True:
-        if time_count >= 5:
+        if time_count >= 900:
 
             ########## Write Paylod ##########
             if sample_count >= 0xFF:
