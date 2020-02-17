@@ -1,0 +1,37 @@
+2020-02-17_17:35:01 : python not run
+
+  configuration setting is below.
+  -------------------------------------
+  Node                        : EndDevice
+  Band Width                  : 500kHz
+  Spreading Factor            : 7
+  Effective Bitrate           : 21875bps
+  Channel                     : 1
+  PAN ID                      : 0110
+  Own Node ID                 : 000001
+  Destination ID              : 000000
+  Acknowledge                 : ON
+  Retry count                 : 3
+  Transfer Mode               : Frame
+  Receive Node ID information : ON
+  RSSI information            : ON
+  Config/Operation            : Configuration
+  UART baudrate               : 115200
+  Sleep Mode                  : No Sleep
+  Sleep Time                  : 50
+  Output Power                : 13dBm
+
+Tx> 00 A0 CD CE 4A 5E 00 00 
+Rx> 07 b0 cb ce 4a 5e 00 00 00 00 	
+Rx> 07 b0 cb ce 4a 5e 00 00 00 00 	
+Rx> 07 b0 cb ce 4a 5e 00 00 00 00 	
+Rx> 07 b0 cb ce 4a 5e 00 00 00 00 	
+Tx> 01 A0 D2 CE 4A 5E 00 00 
+Tx> 02 A0 D7 CE 4A 5E 00 00 
+Tx> 03 A0 DC CE 4A 5E 00 00 
+Tx> 04 A0 E1 CE 4A 5E 00 00 
+Tx> 05 A0 E6 CE 4A 5E 00 00 
+Tx> 06 A0 EB CE 4A 5E 00 00 
+Tx> 07 A0 F0 CE 4A 5E 00 00 
+Tx> 08 A0 F5 CE 4A 5E 00 00 
+Tx> 09 A0 FA CE 4A 5E 00 00 
