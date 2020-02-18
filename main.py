@@ -21,6 +21,7 @@ LoRa_BW = 6
 LoRa_SF = 7
 LoRa_CH = 1
 
+## The unit of time is seconds.
 Time_Interval = 900
 
 ########## Create LORA ##########
