@@ -21,6 +21,8 @@ LoRa_BW = 6
 LoRa_SF = 7
 LoRa_CH = 1
 
+Time_Interval = 900
+
 ########## Create LORA ##########
 LORA = lora_lib.LORA()
 result = LORA.LoRa_Create()
@@ -59,7 +61,7 @@ sample_count = 0
 ########## Main Loop ##########
 try:
     while True:
-        if time_count >= 900:
+        if time_count >= Time_Interval:
 
             ########## Write Paylod ##########
             if sample_count >= 0xFF:
